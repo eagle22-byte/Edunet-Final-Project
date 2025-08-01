@@ -32,11 +32,11 @@ const Footer = () => {
             <div className="contact-info">
               <div className="contact-item">
                 <Phone size={16} />
-                <span>Emergency: 911</span>
+                <span>Emergency: 100</span>
               </div>
               <div className="contact-item">
                 <Phone size={16} />
-                <span>Non-Emergency: (555) 123-4567</span>
+                <span>Non-Emergency: 112</span>
               </div>
               <div className="contact-item">
                 <Mail size={16} />
@@ -44,7 +44,7 @@ const Footer = () => {
               </div>
               <div className="contact-item">
                 <MapPin size={16} />
-                <span>123 Justice Ave, City, State 12345</span>
+                <span>Arundalpet Police Station, 6th lane, Guntur, AP</span>
               </div>
             </div>
           </div>

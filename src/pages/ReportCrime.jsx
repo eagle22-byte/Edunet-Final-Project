@@ -291,7 +291,7 @@ const ReportCrime = () => {
                       value={formData.contactPhone}
                       onChange={handleChange}
                       className="form-input"
-                      placeholder="(555) 123-4567"
+                      placeholder="+91 *** **** ***"
                     />
                     {errors.contactPhone && <div className="form-error">{errors.contactPhone}</div>}
                   </div>

@@ -85,7 +85,7 @@ const Home = () => {
             <AlertTriangle size={32} />
             <div>
               <h3>In Case of Emergency</h3>
-              <p>If you are in immediate danger, call 911 immediately. This system is for non-emergency reporting.</p>
+              <p>If you are in immediate danger, call 100 immediately. This system is for non-emergency reporting.</p>
             </div>
             <Link to="/emergency" className="btn btn-danger">
               Emergency Info

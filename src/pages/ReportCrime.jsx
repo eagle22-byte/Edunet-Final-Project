@@ -115,7 +115,7 @@ const ReportCrime = () => {
         <div className="emergency-notice">
           <AlertTriangle size={24} />
           <div>
-            <strong>Emergency Notice:</strong> If you are in immediate danger or witnessing a crime in progress, call 911 immediately.
+            <strong>Emergency Notice:</strong> If you are in immediate danger or witnessing a crime in progress, call 100 immediately.
           </div>
         </div>
 

@@ -33,13 +33,13 @@ const Emergency = () => {
     {
       name: 'National Suicide Prevention Lifeline',
       number: '1800‑599‑0019',
-      description: 'oll‑free 24×7 mental health and crisis support across India',
+      description: 'Toll‑free 24×7 mental health and crisis support across India',
       available: '24/7'
     },
     {
-      name: 'Domestic Violence Hotline',
+      name: 'Domestic Violence Hotline ',
       number: '181',
-      description: 'National Women’s Helpline (women in distress, including domestic violence',
+      description: 'National Women’s Helpline (women in distress, including domestic violence)',
       available: '24/7'
     },
     {
@@ -70,7 +70,7 @@ const Emergency = () => {
             <Phone size={32} />
             <div>
               <h2>In Immediate Danger?</h2>
-              <p>If you are in immediate danger or witnessing a crime in progress, call 911 now.</p>
+              <p>If you are in immediate danger or witnessing a crime in progress, call 100 now.</p>
             </div>
             <a href="tel:100" className="btn btn-danger emergency-btn">
               Call 100

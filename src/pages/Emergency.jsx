@@ -5,25 +5,25 @@ const Emergency = () => {
   const emergencyContacts = [
     {
       service: 'Police Emergency',
-      number: '911',
+      number: '100',
       description: 'Immediate police response for crimes in progress',
       available: '24/7'
     },
     {
       service: 'Fire Department',
-      number: '911',
+      number: '101',
       description: 'Fire emergencies and hazardous situations',
       available: '24/7'
     },
     {
       service: 'Medical Emergency',
-      number: '911',
+      number: '108',
       description: 'Ambulance and emergency medical services',
       available: '24/7'
     },
     {
       service: 'Police Non-Emergency',
-      number: '(555) 123-4567',
+      number: '112',
       description: 'Non-urgent police matters and general inquiries',
       available: 'Daily 8AM-8PM'
     }
@@ -32,25 +32,25 @@ const Emergency = () => {
   const crisisResources = [
     {
       name: 'National Suicide Prevention Lifeline',
-      number: '988',
-      description: 'Free and confidential emotional support',
+      number: '1800‑599‑0019',
+      description: 'oll‑free 24×7 mental health and crisis support across India',
       available: '24/7'
     },
     {
       name: 'Domestic Violence Hotline',
-      number: '1-800-799-7233',
-      description: 'Support for domestic violence victims',
+      number: '181',
+      description: 'National Women’s Helpline (women in distress, including domestic violence',
       available: '24/7'
     },
     {
       name: 'Crisis Text Line',
-      contact: 'Text HOME to 741741',
+      contact: 'Text to 1800‑599‑0019',
       description: 'Crisis counseling via text message',
       available: '24/7'
     },
     {
       name: 'Poison Control',
-      number: '1-800-222-1222',
+      number: '102/108',
       description: 'Poison and overdose emergencies',
       available: '24/7'
     }
@@ -72,8 +72,8 @@ const Emergency = () => {
               <h2>In Immediate Danger?</h2>
               <p>If you are in immediate danger or witnessing a crime in progress, call 911 now.</p>
             </div>
-            <a href="tel:911" className="btn btn-danger emergency-btn">
-              Call 911
+            <a href="tel:100" className="btn btn-danger emergency-btn">
+              Call 100
             </a>
           </div>
         </div>
@@ -179,7 +179,7 @@ const Emergency = () => {
 
         <div className="additional-info">
           <div className="info-card">
-            <h3>When to Call 911</h3>
+            <h3>When to Call 100</h3>
             <ul>
               <li>Someone is seriously injured or in danger</li>
               <li>A crime is happening right now</li>
